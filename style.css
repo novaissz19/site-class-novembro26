@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0b1120;
+    color: #f1f5f9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+  }
+  
+  .container {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 16px;
+    max-width: 680px;
+    width: 100%;
+    padding: 36px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    background-color: #0f172a;
+    margin-bottom: 16px;
+    object-fit: cover;
+  }
+  
+  header h1 {
+    color: #38bdf8;
+    font-size: 1.9rem;
+    margin-bottom: 8px;
+  }
+  
+  .subtitulo {
+    color: #94a3b8;
+    font-size: 0.95rem;
+  }
+  
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #334155;
+    margin: 24px 0;
+  }
+  
+  .card {
+    background-color: #0f172a;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+    border-left: 4px solid #818cf8;
+  }
+  
+  .card h2 {
+    color: #818cf8;
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+  }
+  
+  .card ul {
+    padding-left: 20px;
+    line-height: 1.8;
+  }
+  
+  .card li strong {
+    color: #38bdf8;
+  }
+  
+  .card p {
+    line-height: 1.6;
+    color: #cbd5e1;
+    margin-bottom: 10px;
+  }
+  
+  .card p:last-child {
+    margin-bottom: 0;
+  }
+  
+  a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .carta {
+    background-color: #1e1b4b;
+    border-left-color: #f472b6;
+  }
+  
+  .carta h2 {
+    color: #f472b6;
+  }
+  
+  .carta p {
+    font-style: italic;
+    color: #f8fafc;
+  }
+  
+  footer {
+    text-align: center;
+    color: #64748b;
+    font-size: 0.85rem;
+  }
